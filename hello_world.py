@@ -1,6 +1,9 @@
 #!/usr/bin/python
 
-my_name = "Dafna"
-message = "hello"
+message = 'what is your name?' 
+message1 = 'hello'
 
-print message + " " + my_name
+myName = raw_input(message)
+print (message1 + " " + myName)
+
+
